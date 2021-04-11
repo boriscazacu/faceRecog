@@ -28,5 +28,3 @@ class Train:
             self.names[i] = self.names[i].replace(self.path, "").replace('.' + self.images_format, "")
             self.faces_names.append(self.names[i])
         print('Train finished !!')
-        print(self.names)
-        print(self.path)
